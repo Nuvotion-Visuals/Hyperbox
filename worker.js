@@ -26,7 +26,6 @@ export default {
 
       // Blogging
       "!medium": "https://medium.com/search?q=",
-      "!substack": "https://substack.com/search?q=",
     
       // Educational and technical
       "!w": "https://en.wikipedia.org/wiki/",

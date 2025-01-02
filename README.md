@@ -50,7 +50,6 @@ If no bang is used, the query will default to a Google search / website navigati
 | `!ddg`   | DuckDuckGo                   |
 | `!w`     | Wikipedia                    |
 | `!medium` | Medium                      |
-| `!substack`| Substack                   |
 | `!mdn`   | MDN Web Docs                 |
 | `!gs`    | Google Scholar               |
 | `!arxiv` | ArXiv                        |
