@@ -9,6 +9,7 @@ Try it here: https://hyperbox.nuvotion.live
 ## Features
 
 - **Search Google** or **navigate directly to a URL** using a single input field.
+- Search on various platforms using **bangs**.
 
 ## How it Works
 
