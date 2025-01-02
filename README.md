@@ -16,6 +16,12 @@ Try it here: https://hyperbox.nuvotion.live
 
  Centering is achieved via legacy HTML tables, because CSS support is also not expected.
 
+## Why?
+
+The Google homepage has too many elements to tab through in order to get to the search field, and it doesn't let you navigate directly to a website.
+
+Some terminal web browsers require you to type in "https://" which can be annoying.
+
 ## How to Use
 
 1. Deploy `index.html` to Cloudflare pages or host it elsewhere.
@@ -23,8 +29,53 @@ Try it here: https://hyperbox.nuvotion.live
 3. Ensure the URL of the form points to your Worker URL.
 4. Fire up your terminal web browser and use the text input to either search Google or enter a URL.
 
-## Why?
+## Using Bangs
 
-The Google homepage has too many elements to tab through in order to get to the search field, and it doesn't let you navigate directly to a website.
+Hyperbox supports "bangs" to let you search directly on various platforms by using a specific prefix in your query. To use a bang, type the bang followed by your search query in the input box. 
 
-Some terminal web browsers require you to type in "https://" which can be annoying.
+For example:
+- Typing `!yt lo-fi beats` will search for "lo-fi beats" on YouTube.
+- Typing `!w JavaScript` will search for "JavaScript" on Wikipedia.
+
+If no bang is used, the query will default to a Google search.
+
+### Supported Bangs
+
+| Bang     | Platform                     |
+|----------|------------------------------|
+| `!g`     | Google Search                |
+| `!b`     | Bing                         |
+| `!y`     | Yahoo                        |
+| `!br`    | Brave Search                 |
+| `!ddg`   | DuckDuckGo                   |
+| `!w`     | Wikipedia (English)          |
+| `!mdn`   | MDN Web Docs                 |
+| `!w:es`  | Wikipedia (Spanish)          |
+| `!w:fr`  | Wikipedia (French)           |
+| `!gs`    | Google Scholar               |
+| `!arxiv` | ArXiv                        |
+| `!ka`    | Khan Academy                 |
+| `!yt`    | YouTube                      |
+| `!r`     | Reddit                       |
+| `!a`     | Amazon                       |
+| `!eb`    | eBay                         |
+| `!ae`    | AliExpress                   |
+| `!et`    | Etsy                         |
+| `!sp`    | Spotify                      |
+| `!gr`    | Goodreads                    |
+| `!imdb`  | IMDb                         |
+| `!lb`    | Letterboxd                   |
+| `!gh`    | GitHub                       |
+| `!npm`   | NPM                          |
+| `!dh`    | Docker Hub                   |
+| `!rust`  | Rust Docs                    |
+| `!flights` | Google Flights             |
+| `!ta`    | TripAdvisor                  |
+| `!osm`   | OpenStreetMap                |
+| `!m`     | Google Maps                  |
+| `!flickr`| Flickr                       |
+| `!twitch`| Twitch                       |
+| `!recipes` | Recipe Search              |
+| `!pin`   | Pinterest                    |
+| `!discord`| Discord                     |
+| `!tt`    | TikTok                       |
