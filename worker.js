@@ -8,12 +8,14 @@ export default {
     }
 
     // Check if input looks like a domain or URL
-    const isLikelyDomain = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(target) || target.startsWith("http");
+    const isLikelyDomainOrURL = /^(https?:\/\/)?([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})(\/.*)?$/.test(target);
 
-    if (isLikelyDomain) {
+    if (isLikelyDomainOrURL) {
+      // Ensure the URL starts with http/https
       const formattedURL = target.startsWith("http") ? target : `https://${target}`;
       return Response.redirect(formattedURL, 302);
     } 
+
 
     // Define bangs for supported search engines
     const bangs = {
@@ -32,7 +34,6 @@ export default {
       "!mdn": "https://developer.mozilla.org/en-US/search?q=",
       "!gs": "https://scholar.google.com/scholar?q=",
       "!arxiv": "https://arxiv.org/search/?query=",
-      "!ka": "https://www.khanacademy.org/search?page_search_query=",
     
       // Shopping and e-commerce
       "!a": "https://www.amazon.com/s?k=",

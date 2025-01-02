@@ -53,7 +53,6 @@ If no bang is used, the query will default to a Google search / website navigati
 | `!mdn`   | MDN Web Docs                 |
 | `!gs`    | Google Scholar               |
 | `!arxiv` | ArXiv                        |
-| `!ka`    | Khan Academy                 |
 | `!yt`    | YouTube                      |
 | `!r`     | Reddit                       |
 | `!a`     | Amazon                       |
