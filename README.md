@@ -34,10 +34,10 @@ Some terminal web browsers require you to type in "https://" which can be annoyi
 Hyperbox supports "bangs" to let you search directly on various platforms by using a specific prefix in your query. To use a bang, type the bang followed by your search query in the input box. 
 
 For example:
-- Typing `!yt lo-fi beats` will search for "lo-fi beats" on YouTube.
-- Typing `!w JavaScript` will search for "JavaScript" on Wikipedia.
+- Typing `!yt Jim Noir` will search for "Jim Noir" on YouTube.
+- Typing `!w Pink Floyd` will search for "Pink Floyd" on Wikipedia.
 
-If no bang is used, the query will default to a Google search.
+If no bang is used, the query will default to a Google search / website navigation.
 
 ### Supported Bangs
 
@@ -48,10 +48,10 @@ If no bang is used, the query will default to a Google search.
 | `!y`     | Yahoo                        |
 | `!br`    | Brave Search                 |
 | `!ddg`   | DuckDuckGo                   |
-| `!w`     | Wikipedia (English)          |
+| `!w`     | Wikipedia                    |
+| `!medium` | Medium                      |
+| `!substack`| Substack                   |
 | `!mdn`   | MDN Web Docs                 |
-| `!w:es`  | Wikipedia (Spanish)          |
-| `!w:fr`  | Wikipedia (French)           |
 | `!gs`    | Google Scholar               |
 | `!arxiv` | ArXiv                        |
 | `!ka`    | Khan Academy                 |
@@ -75,7 +75,6 @@ If no bang is used, the query will default to a Google search.
 | `!m`     | Google Maps                  |
 | `!flickr`| Flickr                       |
 | `!twitch`| Twitch                       |
-| `!recipes` | Recipe Search              |
 | `!pin`   | Pinterest                    |
 | `!discord`| Discord                     |
 | `!tt`    | TikTok                       |
