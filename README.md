@@ -6,10 +6,12 @@ Hyperbox is a minimalist homepage inspired by [Chromium's Omnibox](https://www.c
 
 Try it here: https://hyperbox.nuvotion.live
 
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Nuvotion-Visuals/Hyperbox)
+
 ## Features
 
-- **Search Google** or **navigate directly to a URL** using a single input field.
-- Search on various platforms using **bangs**.
+- **Search the web** or **navigate directly to a URL** using a single input field.
+- Search on various platforms using **bangs**
 
 ## How it Works
 
@@ -25,10 +27,8 @@ Some terminal web browsers require you to type in "https://" which can be annoyi
 
 ## How to Use
 
-1. Deploy `index.html` to Cloudflare pages or host it elsewhere.
-2. Deploy `worker.js` to Cloudflare Workers.
-3. Ensure the URL of the form points to your Worker URL.
-4. Fire up your terminal web browser and use the text input to either search Google or enter a URL.
+1. Deploy `worker.js` to Cloudflare.
+2. Launch your terminal web browser and use the text input to either search the web or enter a URL.
 
 ## Using Bangs
 
@@ -45,35 +45,17 @@ If no bang is used, the query will default to a Google search / website navigati
 | Bang     | Platform                     |
 |----------|------------------------------|
 | `!g`     | Google Search                |
-| `!b`     | Bing                         |
 | `!y`     | Yahoo                        |
 | `!br`    | Brave Search                 |
 | `!ddg`   | DuckDuckGo                   |
 | `!w`     | Wikipedia                    |
 | `!medium` | Medium                      |
-| `!mdn`   | MDN Web Docs                 |
-| `!gs`    | Google Scholar               |
-| `!arxiv` | ArXiv                        |
 | `!yt`    | YouTube                      |
 | `!r`     | Reddit                       |
 | `!a`     | Amazon                       |
 | `!eb`    | eBay                         |
 | `!ae`    | AliExpress                   |
 | `!et`    | Etsy                         |
-| `!sp`    | Spotify                      |
-| `!gr`    | Goodreads                    |
-| `!imdb`  | IMDb                         |
-| `!lb`    | Letterboxd                   |
 | `!gh`    | GitHub                       |
 | `!npm`   | NPM                          |
 | `!dh`    | Docker Hub                   |
-| `!rust`  | Rust Docs                    |
-| `!flights` | Google Flights             |
-| `!ta`    | TripAdvisor                  |
-| `!osm`   | OpenStreetMap                |
-| `!m`     | Google Maps                  |
-| `!flickr`| Flickr                       |
-| `!twitch`| Twitch                       |
-| `!pin`   | Pinterest                    |
-| `!discord`| Discord                     |
-| `!tt`    | TikTok                       |
