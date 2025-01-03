@@ -113,12 +113,6 @@ const HTML = `<!DOCTYPE html>
         <td align="center" valign="middle"></td>
       </tr>
       <tr>
-        <td align="center" valign="middle">⠀</td>
-      </tr>
-      <tr>
-        <td align="center" valign="middle"></td>
-      </tr>
-      <tr>
         <td align="center" valign="middle">Search the web or type a URL</td>
       </tr>
       <tr>
