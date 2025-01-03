@@ -2,7 +2,7 @@
 
 Hyperbox is a minimalist homepage inspired by [Chromium's Omnibox](https://www.chromium.org/user-experience/omnibox/) designed for compatibility with text-based terminal web browsers like **w3m**, **lynx**, or **elinks**. It works with regular browsers as well.
 
-![image](https://github.com/user-attachments/assets/df300251-ff32-42d0-8d1e-db94ce6ee5be)
+![Hyperbox](https://github.com/user-attachments/assets/92c0b431-245f-49ac-8fb6-e49e5e81e799)
 
 Try it here: https://hyperbox.nuvotion.live
 
@@ -11,7 +11,7 @@ Try it here: https://hyperbox.nuvotion.live
 ## Features
 
 - **Search the web** or **navigate directly to a URL** using a single input field.
-- Search on various platforms using **bangs**
+- Search on various platforms using **bangs**.
 
 ## How it Works
 
