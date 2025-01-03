@@ -1,6 +1,6 @@
 # Hyperbox
 
-Hyperbox is a minimalist web navigation tool for text-based terminal browsers like w3m, lynx, and elinks, inspired by [Chromium's Omnibox](https://www.chromium.org/user-experience/omnibox/). It provides a single search bar for web searches and direct URL access.
+Hyperbox is a minimalist web navigation tool for text-based terminal web browsers like w3m, lynx, and elinks, inspired by [Chromium's Omnibox](https://www.chromium.org/user-experience/omnibox/). It provides a single search bar for web searches and direct URL access.
 
 ![Hyperbox](https://github.com/user-attachments/assets/92c0b431-245f-49ac-8fb6-e49e5e81e799)
 
